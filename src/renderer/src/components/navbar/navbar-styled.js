@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 export const NavbarStyled = styled.nav`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 20px;
+  height: 60px;
   background-color: #333;
   color: #fff;
   font-size: 1.2rem;
@@ -21,18 +22,17 @@ export const NavbarStyled = styled.nav`
   }
 
   .navbar-logo {
-    a {
-      color: #fff;
-      text-decoration: none;
-      font-family: arial; /* Fuente cursiva para el nombre */
-      font-weight: 700; /* Fuente más destacada */
-      font-size: 1.5rem; /* Tamaño más grande para el logo */
-      letter-spacing: 1px; /* Espaciado de letras */
-      transition: color 0.3s ease;
-    }
+    display: flex;
+    align-items: center;
+    gap: 5px;
 
-    a:hover {
-      color: #f4a261; /* Color destacado al pasar el mouse */
+    input {
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      transition: box-shadow 0.3s ease;
     }
   }
 
