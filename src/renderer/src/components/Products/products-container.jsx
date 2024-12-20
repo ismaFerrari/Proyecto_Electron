@@ -1,10 +1,15 @@
+
 import { ContainerProductosStyled } from "./products-styled-components"
+import ProductosLista from "./productosLista"
 
 const ContainerProductos = () => {
     return (
-        <ContainerProductosStyled>
-            <h3>Lista de stock</h3>
-        </ContainerProductosStyled>
+        <>
+            <ContainerProductosStyled>
+                <h3>Tus Productos</h3>
+            </ContainerProductosStyled>
+            <ProductosLista />
+        </>
     )
 }
 
