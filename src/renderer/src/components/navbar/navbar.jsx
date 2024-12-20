@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <NavbarStyled>
       <div className="navbar-logo">
-        <a href="/">Logo</a>
+        <a href="/">Rosario.dev</a>
       </div>
       <ul className="navbar-links">
         <li>
