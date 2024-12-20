@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const ProductosNavStyled = styled.div`
   display: flex;
-  justify-content: space-between;
 
   ul {
     width: 100%;
@@ -25,4 +24,6 @@ export const ProductsSection = styled.section`
 export const ProductsListDiv = styled.div`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
+  justify-content: center;
+  gap: ${(props) => props.gap || '0px'};
 `
