@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const NavbarStyled = styled.nav`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 20px;
   height: 60px;
