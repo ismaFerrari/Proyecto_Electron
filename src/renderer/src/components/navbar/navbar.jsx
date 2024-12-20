@@ -1,21 +1,26 @@
 import React from 'react'
 import { NavbarStyled } from './navbar-styled'
+import { FaSearch } from 'react-icons/fa'
 
 export const Navbar = () => {
   return (
     <NavbarStyled>
       <div className="navbar-logo">
-        <a href="/">Rosario.dev</a>
+        <input type="text" placeholder='Buscar' />
+
+        <FaSearch cursor={'pointer'} />
+
+
       </div>
       <ul className="navbar-links">
         <li>
-          <a href="/">Home</a>
+          <a href="/">Añadir Producto</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="/about">Reportes</a>
         </li>
         <li>
-          <a href="/services">Services</a>
+          <a href="/services">Configuración</a>
         </li>
       </ul>
     </NavbarStyled>
