@@ -1,8 +1,5 @@
-import { NavbarStyled } from "./components/navbar/navbar"
+import { Navbar } from './components/navbar/navbar'
 
 export const App = () => {
-  return (
-      <Navbar/>
-      <nav>
-  )
+  return <Navbar />
 }
