@@ -1,18 +1,18 @@
-import { ProductosListaStyled } from "./productosLista-styled-components";
+import { ProductosNavStyled } from './productosLista-styled'
 
 const ProductosLista = () => {
-    return (
-        <ProductosListaStyled>
-            <ul>
-                <li>Producto</li>
-                <li>Cantidad</li>
-                <li>ID</li>
-                <li>Precio</li>
-                <li>Fecha de Agregado</li>
-                <li>Opciones</li>
-            </ul>
-        </ProductosListaStyled>
-    );
+  return (
+    <ProductosNavStyled>
+      <ul>
+        <li>Producto</li>
+        <li>Cantidad</li>
+        <li>ID</li>
+        <li>Precio</li>
+        <li>Fecha de Agregado</li>
+        <li>Opciones</li>
+      </ul>
+    </ProductosNavStyled>
+  )
 }
 
-export default ProductosLista;
+export default ProductosLista

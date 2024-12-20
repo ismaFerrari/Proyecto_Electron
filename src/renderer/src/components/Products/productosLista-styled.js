@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ProductosListaStyled = styled.div`
+export const ProductosNavStyled = styled.div`
   width: 70%;
   display: flex;
 

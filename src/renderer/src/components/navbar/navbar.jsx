@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavbarStyled } from './navbar-styled'
 import { FaSearch } from 'react-icons/fa'
 
