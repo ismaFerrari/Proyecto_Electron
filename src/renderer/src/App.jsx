@@ -1,11 +1,11 @@
 import { Navbar } from './components/navbar/navbar'
-import ContainerProductos from './components/Products/products-container'
+import { ProductsContainer } from './components/Products/productsContainer'
 
 export const App = () => {
   return (
     <>
       <Navbar />
-      <ContainerProductos />
+      <ProductsContainer />
     </>
   )
 }

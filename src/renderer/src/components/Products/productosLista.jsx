@@ -1,6 +1,6 @@
 import { ProductosNavStyled } from './productosLista-styled'
 
-const ProductosLista = () => {
+export const ProductosLista = () => {
   return (
     <ProductosNavStyled>
       <ul>
@@ -14,5 +14,3 @@ const ProductosLista = () => {
     </ProductosNavStyled>
   )
 }
-
-export default ProductosLista

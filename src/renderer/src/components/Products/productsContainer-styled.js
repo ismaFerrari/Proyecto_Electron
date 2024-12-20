@@ -3,11 +3,7 @@ export const ContainerProductosStyled = styled.div`
   width: 70%;
   background-color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  height: 20px;
-  padding: 15px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   margin-top: 20px;
   h3 {
