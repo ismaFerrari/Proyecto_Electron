@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavbarStyled } from './navbar-styled'
 
 export const Navbar = () => {
