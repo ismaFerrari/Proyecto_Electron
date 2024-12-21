@@ -1,5 +1,5 @@
 import React from 'react'
-import { products } from '../../data/products'
+import { products } from '../../../data/products'
 import { Table, TableHeader, TableRow, TableCell } from './productsTable-styled'
 import { PiPlaceholderDuotone } from 'react-icons/pi'
 
@@ -20,7 +20,13 @@ export const ProductsTable = () => {
         {products.map((product) => (
           <TableRow key={product.id}>
             <TableCell>
-              <div style={{ display: 'flex', alignItems: 'center' }}>
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-around'
+                }}
+              >
                 <PiPlaceholderDuotone size={'50px'} style={{ marginRight: '10px' }} />
                 <div>
                   <h3>{product.name}</h3>
